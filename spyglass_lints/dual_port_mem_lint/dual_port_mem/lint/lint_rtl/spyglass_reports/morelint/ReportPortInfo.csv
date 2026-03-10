@@ -1,0 +1,11 @@
+Module Name,Module Type,Port Name,Direction,Width,Index,Comment Source,Comment 
+dual_port_mem,Top_Level,wr_clk,INPUT,1,-,module port,pseudo dual port ram
+dual_port_mem,Top_Level,wr_rstn,INPUT,1,-,-,-
+dual_port_mem,Top_Level,rd_clk,INPUT,1,-,-,-
+dual_port_mem,Top_Level,rd_rstn,INPUT,1,-,-,-
+dual_port_mem,Top_Level,wr_en,INPUT,1,-,-,-
+dual_port_mem,Top_Level,wr_addr,INPUT,4,[3:0],-,-
+dual_port_mem,Top_Level,wr_data,INPUT,8,[7:0],-,-
+dual_port_mem,Top_Level,rd_en,INPUT,1,-,-,-
+dual_port_mem,Top_Level,rd_addr,INPUT,4,[3:0],-,-
+dual_port_mem,Top_Level,rd_data,OUTPUT,8,[7:0],-,-

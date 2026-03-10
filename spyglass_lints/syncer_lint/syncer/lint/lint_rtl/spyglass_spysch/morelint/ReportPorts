@@ -1,0 +1,5 @@
+SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
+VALUE@@clk@@INPUT@@0@@0@@-@@syncer@@No
+VALUE@@rstn@@INPUT@@0@@0@@-@@syncer@@No
+VALUE@@unsync@@INPUT@@7@@0@@-@@syncer@@No
+VALUE@@synced@@OUTPUT@@7@@0@@-@@syncer@@No

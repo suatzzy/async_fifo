@@ -1,0 +1,10 @@
+SCHEMA@@PName@@HierName
+VALUE@@wr_en@@dual_port_mem
+VALUE@@wr_addr[0]@@dual_port_mem
+VALUE@@wr_addr[1]@@dual_port_mem
+VALUE@@wr_addr[2]@@dual_port_mem
+VALUE@@wr_addr[3]@@dual_port_mem
+VALUE@@rd_addr[0]@@dual_port_mem
+VALUE@@rd_addr[1]@@dual_port_mem
+VALUE@@rd_addr[2]@@dual_port_mem
+VALUE@@rd_addr[3]@@dual_port_mem

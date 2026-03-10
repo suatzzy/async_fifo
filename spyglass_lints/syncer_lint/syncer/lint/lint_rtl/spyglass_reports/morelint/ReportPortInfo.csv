@@ -1,0 +1,5 @@
+Module Name,Module Type,Port Name,Direction,Width,Index,Comment Source,Comment 
+syncer,Top_Level,clk,INPUT,1,-,-,-
+syncer,Top_Level,rstn,INPUT,1,-,-,-
+syncer,Top_Level,unsync,INPUT,8,[7:0],-,-
+syncer,Top_Level,synced,OUTPUT,8,[7:0],-,-

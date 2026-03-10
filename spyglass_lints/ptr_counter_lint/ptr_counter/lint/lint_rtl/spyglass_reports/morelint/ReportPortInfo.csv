@@ -1,0 +1,6 @@
+Module Name,Module Type,Port Name,Direction,Width,Index,Comment Source,Comment 
+ptr_counter,Top_Level,clk,INPUT,1,-,-,-
+ptr_counter,Top_Level,rstn,INPUT,1,-,-,-
+ptr_counter,Top_Level,en,INPUT,1,-,-,-
+ptr_counter,Top_Level,ptr,OUTPUT,5,[4:0],module port,the surplus highest bit indicate...
+ptr_counter,Top_Level,addr,OUTPUT,4,[3:0],-,-

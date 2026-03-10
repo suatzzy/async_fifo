@@ -1,0 +1,6 @@
+SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
+VALUE@@clk@@INPUT@@0@@0@@-@@bin2gray@@No
+VALUE@@rstn@@INPUT@@0@@0@@-@@bin2gray@@No
+VALUE@@binary@@INPUT@@7@@0@@-@@bin2gray@@No
+VALUE@@gray@@OUTPUT@@7@@0@@-@@bin2gray@@No
+VALUE@@gray_dly@@OUTPUT@@7@@0@@gray_delayed@@bin2gray@@No

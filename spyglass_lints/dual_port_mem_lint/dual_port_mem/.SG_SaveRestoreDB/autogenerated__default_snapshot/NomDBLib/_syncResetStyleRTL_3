@@ -1,0 +1,5 @@
+M@@dual_port_mem@@
+N@@wr_en@@
+T@@24@@32@@
+N@@rd_en@@
+T@@35@@43@@

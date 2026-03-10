@@ -1,0 +1,17 @@
+SCHEMA@@PName@@HierName
+VALUE@@binary[0]@@bin2gray
+VALUE@@binary[1]@@bin2gray
+VALUE@@binary[2]@@bin2gray
+VALUE@@binary[3]@@bin2gray
+VALUE@@binary[4]@@bin2gray
+VALUE@@binary[5]@@bin2gray
+VALUE@@binary[6]@@bin2gray
+VALUE@@binary[7]@@bin2gray
+VALUE@@gray[0]@@bin2gray
+VALUE@@gray[1]@@bin2gray
+VALUE@@gray[2]@@bin2gray
+VALUE@@gray[3]@@bin2gray
+VALUE@@gray[4]@@bin2gray
+VALUE@@gray[5]@@bin2gray
+VALUE@@gray[6]@@bin2gray
+VALUE@@gray[7]@@bin2gray

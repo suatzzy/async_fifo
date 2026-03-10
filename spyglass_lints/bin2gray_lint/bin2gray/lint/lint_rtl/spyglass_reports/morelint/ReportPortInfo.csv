@@ -1,0 +1,6 @@
+Module Name,Module Type,Port Name,Direction,Width,Index,Comment Source,Comment 
+bin2gray,Top_Level,clk,INPUT,1,-,-,-
+bin2gray,Top_Level,rstn,INPUT,1,-,-,-
+bin2gray,Top_Level,binary,INPUT,8,[7:0],-,-
+bin2gray,Top_Level,gray,OUTPUT,8,[7:0],-,-
+bin2gray,Top_Level,gray_dly,OUTPUT,8,[7:0],module port,gray_delayed

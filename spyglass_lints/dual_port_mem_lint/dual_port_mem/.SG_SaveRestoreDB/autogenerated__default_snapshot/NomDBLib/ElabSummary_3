@@ -1,0 +1,7 @@
+================================================================================
+Elaborated Name: 'dual_port_mem'
+    (RTL Design Unit name: 'dual_port_mem', ../rtl/dual_port_mem.v:1)
+     Parameters (Total: 2)
+         DEPTH = 16 (default: 16)
+         WIDTH = 8 (default: 8)
+================================================================================
