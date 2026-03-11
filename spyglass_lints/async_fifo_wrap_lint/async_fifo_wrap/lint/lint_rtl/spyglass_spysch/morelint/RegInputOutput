@@ -1,0 +1,7 @@
+SCHEMA@@PName@@HierName
+VALUE@@wr_en@@async_fifo_wrap
+VALUE@@wr_full@@async_fifo_wrap
+VALUE@@almost_full@@async_fifo_wrap
+VALUE@@rd_en@@async_fifo_wrap
+VALUE@@rd_empty@@async_fifo_wrap
+VALUE@@almost_empty@@async_fifo_wrap

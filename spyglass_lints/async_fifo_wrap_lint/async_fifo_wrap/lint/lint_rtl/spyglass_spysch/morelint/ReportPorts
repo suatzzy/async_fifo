@@ -1,0 +1,13 @@
+SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
+VALUE@@wr_clk@@INPUT@@0@@0@@-@@async_fifo_wrap@@No
+VALUE@@wr_rstn@@INPUT@@0@@0@@-@@async_fifo_wrap@@No
+VALUE@@wr_en@@INPUT@@0@@0@@-@@async_fifo_wrap@@No
+VALUE@@wr_data@@INPUT@@7@@0@@-@@async_fifo_wrap@@No
+VALUE@@wr_full@@OUTPUT@@0@@0@@-@@async_fifo_wrap@@No
+VALUE@@almost_full@@OUTPUT@@0@@0@@-@@async_fifo_wrap@@No
+VALUE@@rd_clk@@INPUT@@0@@0@@-@@async_fifo_wrap@@No
+VALUE@@rd_rstn@@INPUT@@0@@0@@-@@async_fifo_wrap@@No
+VALUE@@rd_en@@INPUT@@0@@0@@-@@async_fifo_wrap@@No
+VALUE@@rd_data@@OUTPUT@@7@@0@@-@@async_fifo_wrap@@No
+VALUE@@rd_empty@@OUTPUT@@0@@0@@-@@async_fifo_wrap@@No
+VALUE@@almost_empty@@OUTPUT@@0@@0@@-@@async_fifo_wrap@@No

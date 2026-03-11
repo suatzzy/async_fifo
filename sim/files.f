@@ -1,12 +1,13 @@
 // --- files.f : 完整的仿真文件清单 ---
 // 给 VCS (编译) 或 Verdi (波形) 使用
 
-// 1. 一键读入所有 RTL 源码
+//  一键读入所有 RTL 源码
 -f ./rtl.f 
 
 
 
 
-// 2. 读入仿真测试平台 (Testbench)
-../tb/async_fifo_tb.v
+//  读入仿真测试平台 (Testbench)
+
+
 // 如果将来加了 VIP (验证IP) 或其他测试模型，也加在这里

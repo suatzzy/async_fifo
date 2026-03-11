@@ -1,0 +1,2 @@
+async_fifo_nomem@@@@async_fifo_wrap.async_fifo_nomem_inst
+dual_port_mem@@@@async_fifo_wrap.pseudo_dual_port_mem_inst

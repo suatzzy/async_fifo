@@ -165,7 +165,7 @@ gray2bin #(
 wr_full #(
     .FIFO_DEPTH(FIFO_DEPTH),
     .ALMOST_FULL_THRESHOLD(ALMOST_FULL_THRESHOLD)
-)   (
+) wr_full_inst  (
     .rd_ptr_gray_synced(rd_ptr_gray_d_synced),
     .rd_ptr_gray_synced_bin(rd_ptr_gray_synced_bin),
     .wr_ptr_gray(wr_ptr_gray_t),
@@ -178,7 +178,7 @@ wr_full #(
 rd_empty #(
     .FIFO_DEPTH(FIFO_DEPTH),
     .ALMOST_EMPTY_THRESHOLD(ALMOST_EMPTY_THRESHOLD)
-)   (
+) rd_empty_inst  (
     .wr_ptr_gray_synced(wr_ptr_gray_d_synced),
     .wr_ptr_gray_synced_bin(wr_ptr_gray_synced_bin),
     .rd_ptr_gray(rd_ptr_gray_t),
