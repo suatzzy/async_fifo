@@ -1,180 +1,18 @@
 debImport "-f" "files.f"
 debLoadSimResult /home/jjt/target/frontend_homework/async_fifo/sim/dump.fsdb
 wvCreateWindow
-verdiWindowResize -win $_Verdi_1 "820" "362" "900" "700"
 verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
-srcHBSelect "async_fifo_wrap_tb.async_fifo_wrap_inst" -win $_nTrace1
 verdiSetActWin -dock widgetDock_<Inst._Tree>
-srcHBDrag -win $_nTrace1
-wvRenameGroup -win $_nWave2 {G1} {async_fifo_wrap_inst}
-wvAddSignal -win $_nWave2 "/async_fifo_wrap_tb/async_fifo_wrap_inst/wr_clk" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/wr_rstn" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/wr_en" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/wr_data\[7:0\]" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/wr_full" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/almost_full" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/rd_clk" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/rd_rstn" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/rd_en" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/rd_data\[7:0\]" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/rd_empty" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/almost_empty"
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 0)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 12)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 12)}
-verdiDockWidgetMaximize -dock windowDock_nWave_2
-verdiSetActWin -win $_nWave2
-wvZoomAll -win $_nWave2
-wvSelectSignal -win $_nWave2 {( "async_fifo_wrap_inst" 4 )} 
-wvSelectSignal -win $_nWave2 {( "async_fifo_wrap_inst" 8 )} 
-wvSelectSignal -win $_nWave2 {( "async_fifo_wrap_inst" 6 )} 
-wvSelectSignal -win $_nWave2 {( "async_fifo_wrap_inst" 4 )} 
-verdiDockWidgetRestore -dock windowDock_nWave_2
+schCreateWindow -delim "." -win $_nSchema1 -scope "async_fifo_wrap_tb"
+verdiSetActWin -win $_nSchema_3
 srcHBSelect "async_fifo_wrap_tb.async_fifo_wrap_inst" -win $_nTrace1
 srcSetScope "async_fifo_wrap_tb.async_fifo_wrap_inst" -delim "." -win $_nTrace1
 srcHBSelect "async_fifo_wrap_tb.async_fifo_wrap_inst" -win $_nTrace1
 verdiSetActWin -dock widgetDock_<Inst._Tree>
-srcHBSelect "async_fifo_wrap_tb.async_fifo_wrap_inst.pseudo_dual_port_mem_inst" \
-           -win $_nTrace1
-srcHBDrag -win $_nTrace1
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 0)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 1)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 2)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 3)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 4)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 5)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 6)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 7)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 8)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 9)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 10)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 11)}
-wvSetPosition -win $_nWave2 {("async_fifo_wrap_inst" 12)}
-wvSetPosition -win $_nWave2 {("G2" 0)}
-wvRenameGroup -win $_nWave2 {G2} {pseudo_dual_port_mem_inst}
-wvAddSignal -win $_nWave2 \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/wr_clk" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/wr_rstn" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/rd_clk" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/rd_rstn" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/wr_en" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/wr_addr\[3:0\]" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/wr_data\[7:0\]" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/rd_en" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/rd_addr\[3:0\]" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/rd_data\[7:0\]"
-wvSetPosition -win $_nWave2 {("pseudo_dual_port_mem_inst" 0)}
-wvSetPosition -win $_nWave2 {("pseudo_dual_port_mem_inst" 10)}
-wvSetPosition -win $_nWave2 {("pseudo_dual_port_mem_inst" 10)}
-wvSelectSignal -win $_nWave2 {( "async_fifo_wrap_inst" 12 )} 
-verdiSetActWin -win $_nWave2
-wvScrollDown -win $_nWave2 1
-wvScrollUp -win $_nWave2 2
-wvSelectSignal -win $_nWave2 {( "async_fifo_wrap_inst" 12 )} 
-wvSelectGroup -win $_nWave2 {pseudo_dual_port_mem_inst}
-wvSelectSignal -win $_nWave2 {( "pseudo_dual_port_mem_inst" 3 )} 
-wvSelectSignal -win $_nWave2 {( "async_fifo_wrap_inst" 7 )} 
-wvSelectAll -win $_nWave2
-wvCut -win $_nWave2
-wvSetPosition -win $_nWave2 {("pseudo_dual_port_mem_inst" 0)}
-wvSelectGroup -win $_nWave2 {async_fifo_wrap_inst}
-wvCut -win $_nWave2
-wvSetPosition -win $_nWave2 {("G3" 0)}
-wvSetPosition -win $_nWave2 {("pseudo_dual_port_mem_inst" 0)}
-wvSelectGroup -win $_nWave2 {pseudo_dual_port_mem_inst}
-wvCut -win $_nWave2
-wvSetPosition -win $_nWave2 {("G3" 0)}
-wvSelectGroup -win $_nWave2 {G3}
-wvCut -win $_nWave2
-wvSetPosition -win $_nWave2 {("G1" 0)}
 srcHBSelect "async_fifo_wrap_tb.async_fifo_wrap_inst" -win $_nTrace1
-verdiSetActWin -dock widgetDock_<Inst._Tree>
-srcHBSelect "async_fifo_wrap_tb.async_fifo_wrap_inst.pseudo_dual_port_mem_inst" \
-           -win $_nTrace1
-srcHBDrag -win $_nTrace1
-wvRenameGroup -win $_nWave2 {G1} {pseudo_dual_port_mem_inst}
-wvAddSignal -win $_nWave2 \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/wr_clk" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/wr_rstn" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/rd_clk" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/rd_rstn" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/wr_en" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/wr_addr\[3:0\]" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/wr_data\[7:0\]" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/rd_en" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/rd_addr\[3:0\]" \
-           "/async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/rd_data\[7:0\]"
-wvSetPosition -win $_nWave2 {("pseudo_dual_port_mem_inst" 0)}
-wvSetPosition -win $_nWave2 {("pseudo_dual_port_mem_inst" 10)}
-wvSetPosition -win $_nWave2 {("pseudo_dual_port_mem_inst" 10)}
-wvSelectGroup -win $_nWave2 {G2}
-verdiSetActWin -win $_nWave2
-wvZoomAll -win $_nWave2
-srcDeselectAll -win $_nTrace1
-verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
-srcHBSelect "async_fifo_wrap_tb" -win $_nTrace1
-srcSetScope "async_fifo_wrap_tb" -delim "." -win $_nTrace1
-srcHBSelect "async_fifo_wrap_tb" -win $_nTrace1
-verdiSetActWin -dock widgetDock_<Inst._Tree>
-wvSetCursor -win $_nWave2 388515.443151 -snap {("pseudo_dual_port_mem_inst" 8)}
-verdiSetActWin -win $_nWave2
-wvSetCursor -win $_nWave2 313579.230081 -snap {("pseudo_dual_port_mem_inst" 5)}
-wvSetCursor -win $_nWave2 308967.770815 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 308967.770815 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 308967.770815 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 329142.905103 -snap {("pseudo_dual_port_mem_inst" 1)}
-wvSetCursor -win $_nWave2 347012.309758 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 327990.040286 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 29974.485228 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 45538.160251 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 68019.024172 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 87617.726052 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 111251.454790 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 131426.589078 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 144684.534467 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 311849.932856 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSelectSignal -win $_nWave2 {( "pseudo_dual_port_mem_inst" 7 )} 
-wvSelectSignal -win $_nWave2 {( "pseudo_dual_port_mem_inst" 7 )} 
-wvSetRadix -win $_nWave2 -format UDec
-wvSetCursor -win $_nWave2 291674.798568 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 311849.932856 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSelectSignal -win $_nWave2 {( "pseudo_dual_port_mem_inst" 10 )} 
-wvSelectSignal -win $_nWave2 {( "pseudo_dual_port_mem_inst" 10 )} 
-wvSetRadix -win $_nWave2 -format UDec
-wvSetCursor -win $_nWave2 310120.635631 -snap {("pseudo_dual_port_mem_inst" 7)}
-wvSetCursor -win $_nWave2 312426.365264 -snap {("pseudo_dual_port_mem_inst" 6)}
-srcDeselectAll -win $_nTrace1
-verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
-wvSetCursor -win $_nWave2 318190.689346 -snap {("pseudo_dual_port_mem_inst" 6)}
-verdiSetActWin -win $_nWave2
-wvSetCursor -win $_nWave2 320496.418979 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 319919.986571 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 320496.418979 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 321649.283796 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 322225.716204 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetCursor -win $_nWave2 313579.230081 -snap {("pseudo_dual_port_mem_inst" 6)}
-wvSetMarker -win $_nWave2 324675.000000
-srcDeselectAll -win $_nTrace1
-verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
-wvSetCursor -win $_nWave2 322802.148612 -snap {("pseudo_dual_port_mem_inst" 9)}
-verdiSetActWin -win $_nWave2
-wvSetCursor -win $_nWave2 404079.118174 -snap {("pseudo_dual_port_mem_inst" 9)}
-wvSetCursor -win $_nWave2 401196.956132 -snap {("pseudo_dual_port_mem_inst" 9)}
-wvZoom -win $_nWave2 1152.864816 967830.013429
-wvZoom -win $_nWave2 392323.922267 451605.376771
-wvZoomOut -win $_nWave2
-wvZoomOut -win $_nWave2
-wvZoomOut -win $_nWave2
-wvZoomOut -win $_nWave2
-wvSetCursor -win $_nWave2 443257.572077 -snap {("pseudo_dual_port_mem_inst" 10)}
-wvZoom -win $_nWave2 449626.215354 461514.349471
-wvZoomOut -win $_nWave2
-wvZoomOut -win $_nWave2
-wvZoomOut -win $_nWave2
-wvZoomOut -win $_nWave2
-wvZoomOut -win $_nWave2
-wvZoomOut -win $_nWave2
-wvZoomOut -win $_nWave2
-wvZoomIn -win $_nWave2
-wvZoomOut -win $_nWave2
+srcSetScope "async_fifo_wrap_tb.async_fifo_wrap_inst" -delim "." -win $_nTrace1
+srcHBSelect "async_fifo_wrap_tb.async_fifo_wrap_inst" -win $_nTrace1
+schCreateWindow -delim "." -win $_nSchema1 -scope \
+           "async_fifo_wrap_tb.async_fifo_wrap_inst"
+verdiSetActWin -win $_nSchema_4
 debExit

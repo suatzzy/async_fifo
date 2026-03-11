@@ -2,7 +2,7 @@ Magic 271485
 Revision Verdi_T-2022.06
 
 ; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
-viewPort 0 30 2560 1206 235 65
+viewPort 0 30 2560 715 235 65
 
 ; File list:
 ; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
@@ -17,13 +17,13 @@ signalSpacing 5
 ; windowTimeUnit is used for zoom, cursor & marker
 ; waveform viewport range
 zoom 0.000000 1186750.000000
-cursor 710000.000000
+cursor 0.000000
 marker 0.000000
 
 ; user define markers
 ; userMarker time_pos marker_name color linestyle
 ; visible top row signal index
-top 0
+top 1
 ; marker line index
 markerPos 18
 
@@ -47,24 +47,24 @@ curSTATUS ByChange
 
 addGroup "G1"
 activeDirFile "" "/home/jjt/target/frontend_homework/async_fifo/sim/dump.fsdb"
-addSignal -h 25 -UNSIGNED -UDEC /async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/mem[0][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[1][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[2][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[3][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[4][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[5][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[6][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[7][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[8][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[9][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[10][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[11][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[12][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[13][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[14][7:0]
-addSignal -h 25 -UNSIGNED -UDEC -holdScope mem[15][7:0]
+addSignal -h 25 -UNSIGNED -HEX /async_fifo_wrap_tb/async_fifo_wrap_inst/pseudo_dual_port_mem_inst/mem[0][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[1][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[2][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[3][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[4][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[5][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[6][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[7][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[8][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[9][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[10][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[11][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[12][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[13][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[14][7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope mem[15][7:0]
 addGroup "G2"
-addSignal -h 25 -UNSIGNED -UDEC /async_fifo_wrap_tb/catch_pop_temp[7:0]
+addSignal -h 25 -UNSIGNED -HEX /async_fifo_wrap_tb/catch_pop_temp[7:0]
 addGroup "G3"
 
 ; getSignalForm Scope Hierarchy Status
