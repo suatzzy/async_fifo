@@ -1,2 +1,8 @@
-1
+7
+65 /home/jjt/target/frontend_homework/async_fifo/rtl/dual_port_mem.v 1 8d2ca828fee2bceaf0ebae9af043f25c
+63 /home/jjt/target/frontend_homework/async_fifo/rtl/ptr_counter.v 1 54d11d10e17fea91ae3b3e144ad0012d
+58 /home/jjt/target/frontend_homework/async_fifo/rtl/syncer.v 1 4865cf88bd734612e46cb9a8c6b87faa
 60 /home/jjt/target/frontend_homework/async_fifo/rtl/bin2gray.v 1 bf92b686cb47bd929ef67d3e94e7a997
+60 /home/jjt/target/frontend_homework/async_fifo/rtl/gray2bin.v 1 070c5b23492bbaa112532bb06f1456ff
+60 /home/jjt/target/frontend_homework/async_fifo/rtl/rd_empty.v 1 2f7bee405fd293dda41f170204e48fb7
+59 /home/jjt/target/frontend_homework/async_fifo/rtl/wr_full.v 1 dec84c1d62342f8fd9c1d4c40345dd38

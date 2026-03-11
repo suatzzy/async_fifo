@@ -2,5 +2,5 @@
 Elaborated Name: 'ptr_counter'
     (RTL Design Unit name: 'ptr_counter', ../rtl/ptr_counter.v:1)
      Parameters (Total: 1)
-         DEPTH = 16 (default: 16)
+         FIFO_DEPTH = 16 (default: 16)
 ================================================================================

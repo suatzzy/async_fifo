@@ -1,0 +1,7 @@
+SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
+VALUE@@rd_ptr@@INPUT@@4@@0@@-@@rd_empty@@No
+VALUE@@rd_ptr_gray@@INPUT@@4@@0@@-@@rd_empty@@No
+VALUE@@wr_ptr_gray_synced@@INPUT@@4@@0@@-@@rd_empty@@No
+VALUE@@wr_ptr_gray_synced_bin@@INPUT@@4@@0@@-@@rd_empty@@No
+VALUE@@rd_empty@@OUTPUT@@0@@0@@-@@rd_empty@@No
+VALUE@@almost_empty@@OUTPUT@@0@@0@@-@@rd_empty@@No

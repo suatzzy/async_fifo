@@ -1,0 +1,7 @@
+Module Name,Module Type,Port Name,Direction,Width,Index,Comment Source,Comment 
+rd_empty,Top_Level,rd_ptr,INPUT,5,[4:0],-,-
+rd_empty,Top_Level,rd_ptr_gray,INPUT,5,[4:0],-,-
+rd_empty,Top_Level,wr_ptr_gray_synced,INPUT,5,[4:0],-,-
+rd_empty,Top_Level,wr_ptr_gray_synced_bin,INPUT,5,[4:0],-,-
+rd_empty,Top_Level,rd_empty,OUTPUT,1,-,-,-
+rd_empty,Top_Level,almost_empty,OUTPUT,1,-,-,-

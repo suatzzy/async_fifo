@@ -1,0 +1,8 @@
+================================================================================
+Elaborated Name: 'rd_empty'
+    (RTL Design Unit name: 'rd_empty', ../rtl/rd_empty.v:2)
+     Parameters (Total: 3)
+         FIFO_DEPTH             = 16 (default: 16)
+         ALMOST_EMPTY_THRESHOLD = 2 (default: 2)
+         PTR_WIDTH              = 5 (default: ($clog2(FIFO_DEPTH) + 1))
+================================================================================

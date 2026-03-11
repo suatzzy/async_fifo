@@ -9,6 +9,7 @@ Option          Value             Origin  File                           LineNo
 --strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 40
 -batch          <ON>              CmdLine -                              -
 -dbdir          ../spyglass_lints/dual_port_mem_lint/dual_port_mem/.SG_SaveRestoreDB CmdLine -                              -
+-enableSV       <ON>              CmdLine -                              -
 -enable_fast_traversal <ON>              CmdFile $SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff/lint/lint_rtl.spq 82
 -enable_save_restore <ON>              CmdLine -                              -
 -enable_save_restore_builtin true              CmdLine -                              -
@@ -179,7 +180,14 @@ Option          Value             Origin  File                           LineNo
 -templatedir    /home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/GuideWare/latest/block/rtl_handoff CmdLine -                              -
 -top            dual_port_mem     CmdLine -                              -
 -wdir           ../spyglass_lints/dual_port_mem_lint/dual_port_mem/lint/lint_rtl CmdLine -                              -
-<design_files>  ../rtl/dual_port_mem.v APICall -                              -
+<design_files>  ../rtl/async_fifo_nomem.v APICall -                              -
+                ../rtl/bin2gray.v APICall -                              -
+                ../rtl/dual_port_mem.v APICall -                              -
+                ../rtl/gray2bin.v APICall -                              -
+                ../rtl/ptr_counter.v APICall -                              -
+                ../rtl/rd_empty.v APICall -                              -
+                ../rtl/syncer.v   APICall -                              -
+                ../rtl/wr_full.v  APICall -                              -
 
 
 Rules Parameter

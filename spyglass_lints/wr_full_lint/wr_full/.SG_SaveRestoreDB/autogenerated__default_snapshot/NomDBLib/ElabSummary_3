@@ -1,0 +1,8 @@
+================================================================================
+Elaborated Name: 'wr_full'
+    (RTL Design Unit name: 'wr_full', ../rtl/wr_full.v:1)
+     Parameters (Total: 3)
+         FIFO_DEPTH            = 16 (default: 16)
+         ALMOST_FULL_THRESHOLD = 15 (default: 15)
+         PTR_WIDTH             = 5 (default: ($clog2(FIFO_DEPTH) + 1))
+================================================================================

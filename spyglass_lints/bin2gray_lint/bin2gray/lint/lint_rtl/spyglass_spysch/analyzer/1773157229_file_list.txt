@@ -1,1 +1,0 @@
-0 ../rtl/bin2gray.v

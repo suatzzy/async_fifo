@@ -1,7 +1,4 @@
-
-TOP_MODULE = syncer
-RTL_SRC    = ../rtl/syncer.v
-
+TOP_MODULE = rd_empty
 
 
 
@@ -22,7 +19,7 @@ verdi:
 	verdi -f files.f -ssf ./dump.fsdb &
 
 lint:
-	TOP_NAME=$(TOP_MODULE) RTL_PATH=$(RTL_SRC) sg_shell -tcl sg.tcl
+	TOP_NAME=$(TOP_MODULE)	 FILELIST_PATH=./rtl.f	 sg_shell -tcl sg.tcl
 
 
 clean:

@@ -6,3 +6,11 @@
 
 #Waive Constraints :
 waive -rule _domainInfo _domainAnalysis2 --delete_internal_use_only 
+waive -file_lineblock "../rtl/dual_port_mem.v" 1 46 "../rtl/ptr_counter.v" 1 \
+      23 "../rtl/syncer.v" 1 25 "../rtl/bin2gray.v" 1 33 "../rtl/rd_empty.v" 2 \
+      30 "../rtl/wr_full.v" 1 28 -rule VhInfo VhParse VhSynth VeInfo VeParse \
+      VeSynth W421 BlockHeader q%STARC05-2.3.1.2c% W442a W442b W442c W442f \
+      mixedsenselist badimplicitSM1 badimplicitSM2 badimplicitSM4 bothedges \
+      q%STARC05-2.1.6.5% -except 68801 -ignore  -comment \
+      q%All modules outside design hierarchy from where non-FATAL were inadvertently reported% \
+      --delete_internal_use_only  --for_parse_rules  # INTERNAL
