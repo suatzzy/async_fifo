@@ -8,6 +8,6 @@
 
 
 //  读入仿真测试平台 (Testbench)
-
+../tb/async_fifo_wrap_tb.sv
 
 // 如果将来加了 VIP (验证IP) 或其他测试模型，也加在这里

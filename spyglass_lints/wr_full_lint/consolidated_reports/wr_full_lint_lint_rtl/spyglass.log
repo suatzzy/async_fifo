@@ -1,4 +1,4 @@
-SpyGlass run started at 03:56:48 下午 on 3月 11 2026 
+SpyGlass run started at 02:34:29 上午 on 3月 12 2026 
 
 SpyGlass Predictive Analyzer(R) - Version SpyGlass_vT-2022.06-1
 Synopsys TestMAX(TM)
@@ -1997,8 +1997,9 @@ Total Rules Enabled Only For Save : 29
              -strict=W342,W343 \
              -treat_latch_as_combinational=yes \
              -64bit  \
-             ../rtl/async_fifo_nomem.v \
+             ../rtl/async_fifo_wrap.v \
              ../rtl/dual_port_mem.v \
+             ../rtl/async_fifo_nomem.v \
              ../rtl/ptr_counter.v \
              ../rtl/syncer.v \
              ../rtl/bin2gray.v \
@@ -2014,8 +2015,9 @@ Total Rules Enabled Only For Save : 29
 ;	setenv SPYGLASS_DW_PATH /home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/dw_support
 ;	/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/bin/spyglass  -batch -project ../spyglass_lints/wr_full_lint.prj -goal lint/lint_rtl -64bit
 ##spyglass_run.csh ends
-##files    : ../rtl/async_fifo_nomem.v \
+##files    : ../rtl/async_fifo_wrap.v \
              ../rtl/dual_port_mem.v \
+             ../rtl/async_fifo_nomem.v \
              ../rtl/ptr_counter.v \
              ../rtl/syncer.v \
              ../rtl/bin2gray.v \
@@ -2028,7 +2030,7 @@ INFO [6]    Work Directory '../spyglass_lints/wr_full_lint/wr_full/WORK' does no
 
 INFO [75]    Creating the Work Directory '../spyglass_lints/wr_full_lint/wr_full/WORK/64' for 64bit  precompiled dump.
 Checking Rule SGDC_power_est29 (Rule 1 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
-Checking Rule PECHECK04 (Rule 2 of total 290) .... done (Time = 0.01s, Memory = 8.0K)
+Checking Rule PECHECK04 (Rule 2 of total 290) .... done (Time = 0.00s, Memory = 8.0K)
 Checking Rule PECHECK18 (Rule 3 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule PEMVDD01 (Rule 4 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule PrecompileLibCheck01 (Rule 5 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2077,10 +2079,10 @@ Checking Rule SGDC_ungroup01 (Rule 47 of total 290) .... done (Time = 0.00s, Mem
 Checking Rule SGDC_abstract_port06 (Rule 48 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_abstract_port14 (Rule 49 of total 290) .... done (Time = 0.00s, Memory = 8.0K)
 Checking Rule SGDC_abstract_port15 (Rule 50 of total 290) .... done (Time = 0.00s, Memory = 8.0K)
-Checking Rule SGDC_abstract_port18 (Rule 51 of total 290) .... done (Time = 0.00s, Memory = 40.0K)
-Checking Rule sdc_init_rule (Rule 52 of total 290) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_abstract_port18 (Rule 51 of total 290) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule sdc_init_rule (Rule 52 of total 290) .... done (Time = 0.00s, Memory = 32.0K)
 Checking Rule CMD_ignorelibs01 (Rule 53 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
-Checking Rule ReportRuleNotRun (Rule 54 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 54 of total 290) .... done (Time = 0.01s, Memory = 0.0K)
 Checking Rule STARC05-2.3.1.2c (Rule 55 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule W442a (Rule 56 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule W442b (Rule 57 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2096,26 +2098,27 @@ Checking Rule W421 (Rule 66 of total 290) .... done (Time = 0.00s, Memory = 0.0K
 Checking Rule STARC05-2.1.6.5 (Rule 67 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule ReportStopSummary (Rule 68 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule ReportIgnoreSummary (Rule 69 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Analysis started: 3 sec, 2.86 sec, 496464 KB, 1487048 KB
-##SGDEBUG [BENCHMARK_INCR]: Analysis started: 3 sec, 2.86 sec, 496464 KB, 1487048 KB
- Analyzing source file "../rtl/async_fifo_nomem.v" ....
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Analysis started: 4 sec, 3.99 sec, 496472 KB, 1487064 KB
+##SGDEBUG [BENCHMARK_INCR]: Analysis started: 4 sec, 3.99 sec, 496472 KB, 1487064 KB
+ Analyzing source file "../rtl/async_fifo_wrap.v" ....
  Analyzing source file "../rtl/dual_port_mem.v" ....
+ Analyzing source file "../rtl/async_fifo_nomem.v" ....
  Analyzing source file "../rtl/ptr_counter.v" ....
  Analyzing source file "../rtl/syncer.v" ....
  Analyzing source file "../rtl/bin2gray.v" ....
  Analyzing source file "../rtl/gray2bin.v" ....
  Analyzing source file "../rtl/rd_empty.v" ....
  Analyzing source file "../rtl/wr_full.v" ....
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Analysis finished: 3 sec, 2.86 sec, 564112 KB, 1552928 KB
-##SGDEBUG [BENCHMARK_INCR]: Analysis finished: 0 sec, 0.00 sec, 67648 KB, 65880 KB
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration started: 3 sec, 2.87 sec, 564120 KB, 1552928 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Analysis finished: 4 sec, 4.00 sec, 564128 KB, 1552944 KB
+##SGDEBUG [BENCHMARK_INCR]: Analysis finished: 0 sec, 0.01 sec, 67656 KB, 65880 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration started: 4 sec, 4.00 sec, 564136 KB, 1552944 KB
 ##SGDEBUG [BENCHMARK_INCR]: Elaboration started: 0 sec, 0.00 sec, 8 KB, 0 KB
  Elaborating Top Verilog Design Unit 'wr_full' ..... done
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration finished: 3 sec, 2.87 sec, 629872 KB, 1618480 KB
-##SGDEBUG [BENCHMARK_INCR]: Elaboration finished: 0 sec, 0.00 sec, 65752 KB, 65552 KB
-##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker started: 3 sec, 2.87 sec, 629872 KB, 1618480 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration finished: 4 sec, 4.00 sec, 629888 KB, 1618496 KB
+##SGDEBUG [BENCHMARK_INCR]: Elaboration finished: 0 sec, 0.01 sec, 65752 KB, 65552 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker started: 4 sec, 4.00 sec, 629888 KB, 1618496 KB
 ##SGDEBUG [BENCHMARK_INCR]: RTL Semantic Checker started: 0 sec, 0.00 sec, 0 KB, 0 KB
-##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker finished: 3 sec, 2.87 sec, 629872 KB, 1618480 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker finished: 4 sec, 4.00 sec, 629888 KB, 1618496 KB
 ##SGDEBUG [BENCHMARK_INCR]: RTL Semantic Checker finished: 0 sec, 0.00 sec, 0 KB, 0 KB
 Checking Rule ElabSummary (Rule 70 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule ReportCheckDataSummary (Rule 71 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2124,7 +2127,7 @@ Checking Rule ReportCheckDataSummary (Rule 71 of total 290) .... done (Time = 0.
  Generating WAIVER file "../spyglass_lints/wr_full_lint/wr_full/lint/lint_rtl/spyglass_spysch/waiver/pragma2Waiver.swl" from pragmas in HDL source files ....
 Checking Rule DetectTopDesignUnits (Rule 72 of total 290) Detected 1 top level design units: 
      wr_full
- .... done (Time = 0.00s, Memory = 0.0K)
+ .... done (Time = 0.01s, Memory = 0.0K)
 Performing semantic checks on SGDC contents
 ..... SGDC semantic checks completed. (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_testmode03 (Rule 73 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2183,7 +2186,7 @@ Checking Rule W421 (Rule 111 of total 290) .... done (Time = 0.00s, Memory = 0.0
 Checking Rule W424 (Rule 112 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule W467 (Rule 113 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule Prereqs_RegInputOutputs (Rule 114 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
-Checking Rule PragmaComments-ML (Rule 115 of total 290) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule PragmaComments-ML (Rule 115 of total 290) .... done (Time = 0.01s, Memory = 32.0K)
 Checking Rule PragmaComments-ML (Rule 116 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule CheckDelayTimescale-ML (Rule 117 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule Prereqs_CheckTimeUnitandPrecision-ML (Rule 118 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2242,10 +2245,10 @@ Checking ELABDU Rules for designUnit wr_full
     Checking Rule W505 (Rule 170 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W505 (Rule 171 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule W528 (Rule 172 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
-    Checking Rule W528 (Rule 173 of total 290) .... done (Time = 0.00s, Memory = 544.0K)
+    Checking Rule W528 (Rule 173 of total 290) .... done (Time = 0.00s, Memory = 608.0K)
     Checking Rule Prereqs_Usage (Rule 174 of total 290) .... done (Time = 0.00s, Memory = -16.0K)
     Checking Rule Prereqs_ConstantInput-ML (Rule 175 of total 290) .... done (Time = 0.00s, Memory = 32.0K)
-    Checking Rule ReportPortInfo-ML (Rule 176 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule ReportPortInfo-ML (Rule 176 of total 290) .... done (Time = 0.00s, Memory = 8.0K)
     Checking Rule Prereqs_ReportPortInfo-ML (Rule 177 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule Prereqs_ReportPortInfo-ML (Rule 178 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
     Checking Rule NoAssignX-ML (Rule 179 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2259,30 +2262,30 @@ Checking Rule SGDC_waive24 (Rule 185 of total 290) .... done (Time = 0.00s, Memo
 Checking Rule SGDC_waive25 (Rule 186 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_waive31 (Rule 187 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_waive35 (Rule 188 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Synthesis started: 3 sec, 3.20 sec, 631808 KB, 1618480 KB
-##SGDEBUG [BENCHMARK_INCR]: Synthesis started: 0 sec, 0.33 sec, 1936 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Synthesis started: 5 sec, 4.43 sec, 631824 KB, 1618496 KB
+##SGDEBUG [BENCHMARK_INCR]: Synthesis started: 1 sec, 0.43 sec, 1936 KB, 0 KB
  Synthesizing module: wr_full (elaborated name: wr_full) ... (Module 1 of total 1)  done 
-     (Memory Used = -135176.0K(incr), 566568.0K(tot), Cpu Time = 0.00s(incr))
+     (Memory Used = -135176.0K(incr), 566584.0K(tot), Cpu Time = 0.01s(incr))
  Synthesis completed.
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Synthesis completed: 3 sec, 3.21 sec, 567096 KB, 1749712 KB
-##SGDEBUG [BENCHMARK_INCR]: Synthesis completed: 0 sec, 0.02 sec, -64712 KB, 131232 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Synthesis completed: 5 sec, 4.44 sec, 567128 KB, 1749728 KB
+##SGDEBUG [BENCHMARK_INCR]: Synthesis completed: 0 sec, 0.01 sec, -64696 KB, 131232 KB
 Checking Rule InferBlackBox (Rule 189 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 ##SGDEBUG [BENCHMARK_DATA]: Number of NOM Modules = 1
-##SGDEBUG [BENCHMARK_DATA]: Number of NOM Instances = 19
-##SGDEBUG [BENCHMARK_DATA]: Number of NOM Nets = 90
-##SGDEBUG [BENCHMARK_DATA]: Number of NOM Terminals = 262
-##SGDEBUG [BENCHMARK_DATA]: Number of NOM Instances per Module (max and avg) = 19, 19
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Instances = 16
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Nets = 86
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Terminals = 256
+##SGDEBUG [BENCHMARK_DATA]: Number of NOM Instances per Module (max and avg) = 16, 16
 Checking Rule checkCMD_mthresh (Rule 190 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Saving NOM started: 3 sec, 3.21 sec, 567104 KB, 1749712 KB
-##SGDEBUG [BENCHMARK_INCR]: Saving NOM started: 0 sec, 0.00 sec, 8 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Saving NOM started: 5 sec, 4.44 sec, 567128 KB, 1749728 KB
+##SGDEBUG [BENCHMARK_INCR]: Saving NOM started: 0 sec, 0.00 sec, 0 KB, 0 KB
 
 INFO [234]    Saving design database in directory '../spyglass_lints/wr_full_lint/wr_full/.SG_SaveRestoreDB/autogenerated__default_snapshot' ...
               done
 
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Saving NOM completed: 3 sec, 3.22 sec, 612168 KB, 1768180 KB
-##SGDEBUG [BENCHMARK_INCR]: Saving NOM completed: 0 sec, 0.00 sec, 45064 KB, 18468 KB
-     (Memory Used = 45064.0K(incr), 612168.0K(tot), Cpu Time = 0.00s(incr))
-Checking Rule SGDC_waive37 (Rule 191 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Saving NOM completed: 5 sec, 4.50 sec, 616288 KB, 1768200 KB
+##SGDEBUG [BENCHMARK_INCR]: Saving NOM completed: 0 sec, 0.06 sec, 49160 KB, 18472 KB
+     (Memory Used = 49160.0K(incr), 616288.0K(tot), Cpu Time = 0.06s(incr))
+Checking Rule SGDC_waive37 (Rule 191 of total 290) .... done (Time = 0.00s, Memory = -32.0K)
 Checking Rule Txv_SvaSetup01 for module wr_full (Rule 192 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule PESVASETUP01 for module wr_full (Rule 193 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule _cdc_save_license01 for module wr_full (Rule 194 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2299,7 +2302,7 @@ Checking Rule STARC05-2.5.1.7 for module wr_full (Rule 204 of total 290) .... do
 Checking Rule STARC05-2.5.1.9 for module wr_full (Rule 205 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Performing semantic checks on SGDC contents
 ..... SGDC semantic checks completed. (Time = 0.00s, Memory = 0.0K)
-Checking Rule SGDC_testmode03 (Rule 73 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_testmode03 (Rule 73 of total 290) .... done (Time = 0.01s, Memory = 0.0K)
 Checking Rule checkSGDC_01 (Rule 206 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule checkSGDC_03 (Rule 207 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule checkSGDC_08 (Rule 208 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2309,7 +2312,7 @@ Checking Rule SGDC_reset03 (Rule 211 of total 290) .... done (Time = 0.00s, Memo
 Checking Rule SGDC_libgroup03 (Rule 212 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_ungroup02 (Rule 213 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule _abstractPortSGDC (Rule 214 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
-Checking Rule SGDC_abstract_port03 (Rule 215 of total 290) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_abstract_port03 (Rule 215 of total 290) .... done (Time = 0.00s, Memory = -24.0K)
 Checking Rule SGDC_abstract_port04 (Rule 216 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_abstract_port05 (Rule 217 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule SGDC_abstract_port07 (Rule 218 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2323,35 +2326,35 @@ Checking Rule LINT_portReten (Rule 225 of total 290) .... done (Time = 0.00s, Me
 Checking Rule SGDC_abstract_port21 (Rule 226 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule InferLatch (Rule 227 of total 290) .... done (Time = 0.00s, Memory = 32.0K)
 Checking Rule UndrivenInTerm-ML (Rule 228 of total 290) .... done (Time = 0.00s, Memory = -32.0K)
-##SGDEBUG [BENCHMARK_ABSOLUTE]: VS rule checking finished...: 3 sec, 3.22 sec, 567392 KB, 1768180 KB
-##SGDEBUG [BENCHMARK_INCR]: VS rule checking finished...: 0 sec, 0.01 sec, -44776 KB, 0 KB
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Elab View Deletion Finished: 3 sec, 3.22 sec, 501696 KB, 1768180 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: VS rule checking finished...: 5 sec, 4.51 sec, 567400 KB, 1768196 KB
+##SGDEBUG [BENCHMARK_INCR]: VS rule checking finished...: 0 sec, 0.01 sec, -48888 KB, -4 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Elab View Deletion Finished: 5 sec, 4.51 sec, 501704 KB, 1768196 KB
 ##SGDEBUG [BENCHMARK_INCR]: Elab View Deletion Finished: 0 sec, 0.00 sec, -65696 KB, 0 KB
-##SGDEBUG [BENCHMARK_ABSOLUTE]: After deleting RTL view: 3 sec, 3.22 sec, 434376 KB, 1768180 KB
-##SGDEBUG [BENCHMARK_INCR]: After deleting RTL view: 0 sec, 0.00 sec, -67320 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: After deleting RTL view: 5 sec, 4.51 sec, 434376 KB, 1768196 KB
+##SGDEBUG [BENCHMARK_INCR]: After deleting RTL view: 0 sec, 0.00 sec, -67328 KB, 0 KB
 Checking Rule SGDC_assume_path05 (Rule 229 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Flattening started: 3 sec, 3.22 sec, 435832 KB, 1768180 KB
-##SGDEBUG [BENCHMARK_INCR]: Flattening started: 0 sec, 0.00 sec, 1456 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Flattening started: 5 sec, 4.51 sec, 435840 KB, 1768196 KB
+##SGDEBUG [BENCHMARK_INCR]: Flattening started: 0 sec, 0.00 sec, 1464 KB, 0 KB
  Flattening wr_full (.lib instances separately flattened) ....
-     (Memory Used = 2088.0K(incr), 437920.0K(tot), Cpu Time = 0.00s(incr))
+     (Memory Used = 2080.0K(incr), 437920.0K(tot), Cpu Time = 0.03s(incr))
  Flattening completed
-##SGDEBUG [BENCHMARK_DATA]: Number of Flat Instances = 19
-##SGDEBUG [BENCHMARK_DATA]: Number of Flat Nets = 80
-##SGDEBUG [BENCHMARK_DATA]: Number of Flat Terms = 247
+##SGDEBUG [BENCHMARK_DATA]: Number of Flat Instances = 16
+##SGDEBUG [BENCHMARK_DATA]: Number of Flat Nets = 77
+##SGDEBUG [BENCHMARK_DATA]: Number of Flat Terms = 241
 ##SGDEBUG [BENCHMARK_DATA]: Number of Flat Paths = 1
 ##SGDEBUG [BENCHMARK_DATA]: Number of Flat Ports = 26
 ##SGDEBUG [BENCHMARK_DATA]: Number of Black-Box Instances = 0
 ##SGDEBUG [BENCHMARK_DATA]: Number of Lib Instances = 0
 ##SGDEBUG [BENCHMARK_DATA]: Number of ILM Instances = 0
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Flattening finished: 3 sec, 3.23 sec, 437920 KB, 1768180 KB
-##SGDEBUG [BENCHMARK_INCR]: Flattening finished: 0 sec, 0.00 sec, 2088 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Flattening finished: 5 sec, 4.54 sec, 437920 KB, 1768196 KB
+##SGDEBUG [BENCHMARK_INCR]: Flattening finished: 0 sec, 0.02 sec, 2080 KB, 0 KB
 Checking Rule SGDC_set_case_analysis_LC (Rule 230 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule BufClock (Rule 231 of total 290) .... done (Time = 0.00s, Memory = 768.0K)
 Checking Rule CombLoop (Rule 232 of total 290) .... done (Time = 0.00s, Memory = 1552.0K)
 Checking Rule STARC05-2.5.1.2 (Rule 233 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule STARC05-1.3.1.3 (Rule 234 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule STARC05-1.4.3.4 (Rule 235 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
-Checking Rule FlopClockConstant (Rule 236 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule FlopClockConstant (Rule 236 of total 290) .... done (Time = 0.00s, Memory = 8.0K)
 Checking Rule FlopSRConst (Rule 237 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule FlopEConst (Rule 238 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
 Checking Rule checkPinConnectedToSupply (Rule 239 of total 290) .... done (Time = 0.00s, Memory = 0.0K)
@@ -2366,12 +2369,12 @@ Checking Rule ReportCheckDataSummary (Rule 71 of total 290) .... done (Time = 0.
 Applying user specified and internally generated waivers on violation database .... done (Time = 0.00s)
 
 Generating data for Console...
-##SGDEBUG [PEAK_VMSIZE_END_RULE]: 1768184 KB for entire run at 'Saving NOM completed' stage
+##SGDEBUG [PEAK_VMSIZE_END_RULE]: 1768200 KB for entire run at 'Saving NOM completed' stage
 ##SGDEBUG [PEAK_SWAP_MEMORY_END_RULE]: 0 KB for entire run
-##SGDEBUG [VMPEAK_MEMORY]: 1768196 KB for entire run
-##SGDEBUG [PEAK_RSS_MEMORY]: 607784 KB for entire run
-##SGDEBUG [BENCHMARK_ABSOLUTE]: Rule checking finished: 3 sec, 3.27 sec, 437080 KB, 1768176 KB
-##SGDEBUG [BENCHMARK_INCR]: Rule checking finished: 0 sec, 0.05 sec, -840 KB, -4 KB
+##SGDEBUG [VMPEAK_MEMORY]: 1768212 KB for entire run
+##SGDEBUG [PEAK_RSS_MEMORY]: 618172 KB for entire run
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Rule checking finished: 5 sec, 4.59 sec, 437088 KB, 1768192 KB
+##SGDEBUG [BENCHMARK_INCR]: Rule checking finished: 0 sec, 0.05 sec, -832 KB, -4 KB
 
 
 =====================================================================================
@@ -6439,6 +6442,6 @@ Results Summary:
 ---------------------------------------------------------------------------------------------------
  
 SpyGlass Exit Code 0 (Rule-checking completed without errors or warnings)
-SpyGlass total goal run-time is 00:00:03 (3 secs)
-SpyGlass total cpu-time is 4 secs
-SpyGlass run completed at 03:56:54 PM on Mar 11 2026
+SpyGlass total goal run-time is 00:00:05 (5 secs)
+SpyGlass total cpu-time is 5 secs
+SpyGlass run completed at 02:34:37 AM on Mar 12 2026

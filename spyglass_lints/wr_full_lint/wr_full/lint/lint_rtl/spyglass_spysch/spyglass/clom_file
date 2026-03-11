@@ -181,6 +181,7 @@ Option          Value             Origin  File                           LineNo
 -top            wr_full           CmdLine -                              -
 -wdir           ../spyglass_lints/wr_full_lint/wr_full/lint/lint_rtl CmdLine -                              -
 <design_files>  ../rtl/async_fifo_nomem.v APICall -                              -
+                ../rtl/async_fifo_wrap.v APICall -                              -
                 ../rtl/bin2gray.v APICall -                              -
                 ../rtl/dual_port_mem.v APICall -                              -
                 ../rtl/gray2bin.v APICall -                              -

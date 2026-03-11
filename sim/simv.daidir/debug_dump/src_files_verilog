@@ -1,0 +1,10 @@
+/home/jjt/target/frontend_homework/async_fifo/rtl/async_fifo_nomem.v
+/home/jjt/target/frontend_homework/async_fifo/rtl/async_fifo_wrap.v
+/home/jjt/target/frontend_homework/async_fifo/rtl/bin2gray.v
+/home/jjt/target/frontend_homework/async_fifo/rtl/dual_port_mem.v
+/home/jjt/target/frontend_homework/async_fifo/rtl/gray2bin.v
+/home/jjt/target/frontend_homework/async_fifo/rtl/ptr_counter.v
+/home/jjt/target/frontend_homework/async_fifo/rtl/rd_empty.v
+/home/jjt/target/frontend_homework/async_fifo/rtl/syncer.v
+/home/jjt/target/frontend_homework/async_fifo/rtl/wr_full.v
+/home/jjt/target/frontend_homework/async_fifo/tb/async_fifo_wrap_tb.sv

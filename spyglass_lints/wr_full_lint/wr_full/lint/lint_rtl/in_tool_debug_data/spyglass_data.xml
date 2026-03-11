@@ -1,7 +1,7 @@
 <CWD>/home/jjt/target/frontend_homework/async_fifo/sim</CWD>
 <ENVVAR>
 	<env name="SPYGLASS_SPYAUTH_FILE">
-		<value>/tmp/spyAuthFileList473981773215808</value>
+		<value>/tmp/spyAuthFileList191391773254069</value>
 	</env>
 	<env name="LD_LIBRARY_PATH">
 		<value>/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/auxi:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/auxi/tkgui-new:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/auxi/policy_data/spyglass/design_read:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/Audits:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/adv_lowpower:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/area:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/auto-verify:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/clock:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/constraints:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/cubic_netlist:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/dft:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/dft_dsm:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/erc:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/latch:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/lint:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/lowpower:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/mbist-dft:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/miscellaneous:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/morelint:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/openmore:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/power_est:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/prof:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/rtl2netlist:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/sec:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/simulation:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/spyglass:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/starc:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/starc2002:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/starc2005:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/starcad-21:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/timing:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/policies/txv:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/auxi/tkgui-new/Linux4:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/auxi/rme:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/auxi/rme/Parser:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/auxi/rme/Parser/Linux4:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/multi-perl/lib/5.8.3:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/multi-perl/lib/site_perl/5.8.3:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/auxi/tkgui-new/Linux4:/lib64/tls:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/multi-tcl/lib/Linux4:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/python/Linux4/lib:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/../dotty/lib/Linux4:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/auxi/tkgui-new/Linux4:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/multi-tcl/lib/Linux4::/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/multi-qt/lib/Linux4:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/multi-nlview/Linux4:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/multi-boost/Linux4:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/multi-thirdparty/Linux4:/depot/gcc-4.8.3-patch/lib64:/usr/lib64:/usr/X11R6/lib64:/usr/local/lib64:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/multi-vcst/vcs-mx/linux64/lib:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/oa/Linux4:::/home/jjt/install/cadence/innovus/innovus2020/tools.lnx86:/home/jjt/install/cadence/innovus/innovus2020/tools.lnx86/lib/64bit:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/oa/Linux4::/usr/lib:/lib:/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/zebulib</value>
@@ -64,13 +64,13 @@
 		<value/>
 	</env>
 	<env name="GNOME_TERMINAL_SCREEN">
-		<value>/org/gnome/Terminal/screen/e6703ff8_84b0_4c3c_89ef_ac89c12a351e</value>
+		<value>/org/gnome/Terminal/screen/438423be_b6b0_4ebc_a543_d514cca04f95</value>
 	</env>
 	<env name="LC_NUMERIC">
 		<value>zh_CN.UTF-8</value>
 	</env>
 	<env name="SPYGLASS_IPC_SERVER_APP_INFO">
-		<value>/tmp/.SPYGLASS_IPC_SERVER_APP_INFO@@808</value>
+		<value>/tmp/.SPYGLASS_IPC_SERVER_APP_INFO@@69</value>
 	</env>
 	<env name="TOP_MODULE">
 		<value>wr_full</value>
@@ -106,7 +106,7 @@
 		<value>rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:</value>
 	</env>
 	<env name="GNOME_TERMINAL_SERVICE">
-		<value>:1.107</value>
+		<value>:1.136</value>
 	</env>
 	<env name="TCL_LIBRARY">
 		<value>/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME/lib/multi-tcl/lib/tcl</value>
@@ -169,7 +169,7 @@
 		<value>/home/jjt/target/frontend_homework/async_fifo/sim</value>
 	</env>
 	<env name="CMD_FILE_PATH">
-		<value>/tmp/cmdfile_47398</value>
+		<value>/tmp/cmdfile_19139</value>
 	</env>
 	<env name="XMODIFIERS">
 		<value>@im=ibus</value>
@@ -193,7 +193,7 @@
 		<value>zh_CN.UTF-8</value>
 	</env>
 	<env name="SPYGLASS_IPC_SERVER_APP_PID">
-		<value>47617</value>
+		<value>19358</value>
 	</env>
 	<env name="TESSENT_HOME">
 		<value>/home/jjt/install/mentor/tessent_2023_1</value>
@@ -298,7 +298,7 @@
 		<value>no</value>
 	</env>
 	<env name="SPYGLASS_CHECKER_PID_FILE_VAR">
-		<value>/tmp/.SPYGLASS_CHECKER_PID_FILE@@47398808</value>
+		<value>/tmp/.SPYGLASS_CHECKER_PID_FILE@@1913969</value>
 	</env>
 	<env name="XAUTHORITY">
 		<value>/run/gdm/auth-for-jjt-saqmFn/database</value>
@@ -513,7 +513,9 @@
 		<value>wr_full</value>
 	</Opt>
 	<Opt name="-verilog_files">
+		<value>../rtl/async_fifo_wrap.v</value>
 		<value>../rtl/dual_port_mem.v</value>
+		<value>../rtl/async_fifo_nomem.v</value>
 		<value>../rtl/ptr_counter.v</value>
 		<value>../rtl/syncer.v</value>
 		<value>../rtl/bin2gray.v</value>
@@ -525,7 +527,7 @@
 		<value>+suppress+36</value>
 	</Opt>
 	<Opt name="--stime">
-		<value>03:56:48 下午 on 3月 11 2026</value>
+		<value>02:34:29 上午 on 3月 12 2026</value>
 	</Opt>
 	<Opt name="-blackboxdir">
 		<value>inout</value>
@@ -613,16 +615,16 @@
 </Module_Perf>
 <NOM_DESIGN>
 	<Modules>1</Modules>
-	<Instances>19</Instances>
-	<Nets>90</Nets>
-	<Terminals>262</Terminals>
-	<MAX>19</MAX>
-	<Avg>19</Avg>
+	<Instances>16</Instances>
+	<Nets>86</Nets>
+	<Terminals>256</Terminals>
+	<MAX>16</MAX>
+	<Avg>16</Avg>
 </NOM_DESIGN>
 <FLAT_DESIGN>
-	<Instances>19</Instances>
-	<Nets>80</Nets>
-	<Terminals>247</Terminals>
+	<Instances>16</Instances>
+	<Nets>77</Nets>
+	<Terminals>241</Terminals>
 	<Paths>1</Paths>
 	<Ports>26</Ports>
 	<BBOX_Inst>0</BBOX_Inst>
@@ -635,7 +637,7 @@
 	<Reduntant>0</Reduntant>
 	<Viol_Waived>0</Viol_Waived>
 </WAIVER_COUNT>
-<PEAK_MEMORY>1768196</PEAK_MEMORY>
+<PEAK_MEMORY>1768212</PEAK_MEMORY>
 <Parameters>
 	<Param name="-W416_vhdl_only">
 		<DefaultValue>no</DefaultValue>
@@ -1697,7 +1699,7 @@
 	</Rule>
 	<Rule name="PragmaComments-ML">
 		<Time>0</Time>
-		<Memory>-32</Memory>
+		<Memory>32</Memory>
 		<Count>0</Count>
 	</Rule>
 	<Rule name="Prereqs_ReportPortInfo-ML">
@@ -1712,7 +1714,7 @@
 	</Rule>
 	<Rule name="ReportPortInfo-ML">
 		<Time>0</Time>
-		<Memory>0</Memory>
+		<Memory>8</Memory>
 		<Count>0</Count>
 	</Rule>
 	<Rule name="RegInputOutput-ML">
@@ -1785,7 +1787,7 @@
 		<RULE_PARAM name="-checkfullbus" value="yes"/>
 		<RULE_PARAM name="-checkfullrecord" value="yes"/>
 		<Time>0</Time>
-		<Memory>544</Memory>
+		<Memory>608</Memory>
 		<Count>0</Count>
 	</Rule>
 	<Rule name="W528">
@@ -2220,7 +2222,7 @@
 	<Rule name="FlopClockConstant">
 		<RULE_PARAM name="-report_inferred_cell" value="yes"/>
 		<Time>0</Time>
-		<Memory>0</Memory>
+		<Memory>8</Memory>
 		<Count>0</Count>
 	</Rule>
 	<Rule name="STARC05-2.3.4.1v">

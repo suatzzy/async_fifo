@@ -1,0 +1,84 @@
+Command: /home/jjt/target/frontend_homework/async_fifo/sim/./simv -ucli -i wave_gen.tcl -l runsim.log
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Mar 12 02:34 2026
+ucli% call {$fsdbDumpfile("dump.fsdb")}
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'dump.fsdb'
+ucli% call {$fsdbDumpvars}
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+ucli% call {$fsdbDumpMDA}
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+ucli% run
+Push   1
+Push   2
+---Cannot pop   x :FIFO is possible empty---
+Push  10
+Push  20
+Push  30
+Push  40
+Push  50
+Push  60
+Push  70
+Push  80
+Push  90
+Push 100
+Push 110
+Push 120
+Push 130
+---Popped   1
+Push   1
+---Cannot push   1 :FIFO is possible Full---
+---Cannot push   1 :FIFO is possible Full---
+---Cannot push   1 :FIFO is possible Full---
+---Popped   2
+---Popped  10
+---Popped  20
+---Popped  30
+---Popped  40
+---Popped  50
+---Popped  60
+---Popped  70
+---Popped  80
+---Popped  90
+---Popped 100
+---Popped 110
+---Popped 120
+---Popped 130
+Push 140
+---Popped   1
+Push   1
+---Cannot pop   1 :FIFO is possible empty---
+---Cannot pop   1 :FIFO is possible empty---
+---Cannot pop   1 :FIFO is possible empty---
+Push   5
+---Popped 140
+---Cannot pop 140 :FIFO is possible empty---
+---Cannot pop 140 :FIFO is possible empty---
+Push  10
+Push  20
+Push  30
+Push  40
+Push  50
+Push  60
+Push  70
+Push  80
+Push  90
+Push 100
+Push 110
+Push 120
+Push 130
+Push  10
+---Cannot push  20 :FIFO is possible Full---
+---Cannot push  30 :FIFO is possible Full---
+$finish called from file "../tb/async_fifo_wrap_tb.sv", line 136.
+$finish at simulation time              1175000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1175000 ps
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Thu Mar 12 02:34:53 2026

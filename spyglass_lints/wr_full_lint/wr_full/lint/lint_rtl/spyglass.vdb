@@ -1,5 +1,5 @@
 ##spyglass_version: SpyGlass_vT-2022.06-1
-##date: Wed Mar 11 15:56:54 2026
+##date: Thu Mar 12 02:34:36 2026
 ##user: jjt
 ##cwd: /home/jjt/target/frontend_homework/async_fifo/sim
 ##lang: verilog+vhdl
@@ -1589,14 +1589,15 @@ ElabSummary@@ElabSummary@@Info@@../spyglass_lints/wr_full_lint/wr_full/lint/lint
 ##sde_property: msg_label DEFAULT
 ##sde_property: msg_id DEFAULT
 ##files_verilog: ../rtl/wr_full.v
-##sde_property: file ../rtl/dual_port_mem.v -id 1 -inactiveList slc 1 1 1
-##sde_property: file ../rtl/ptr_counter.v -id 2 -inactiveList slc 7 7 1
-##sde_property: file ../rtl/syncer.v -id 3
-##sde_property: file ../rtl/bin2gray.v -id 4 -inactiveList slc 9 9 1 slc 12 12 1 slc 20 20 1
-##sde_property: file ../rtl/gray2bin.v -id 5 -inactiveList mlc 1 15 10 0
-##sde_property: file ../rtl/rd_empty.v -id 6
-##sde_property: file ../rtl/wr_full.v -id 7
-##sde_property: file ../rtl/async_fifo_nomem.v -id 9
+##sde_property: file ../rtl/async_fifo_wrap.v -id 1 -inactiveList mlc 1 15 10 0 slc 39 39 1
+##sde_property: file ../rtl/dual_port_mem.v -id 2 -inactiveList slc 1 1 1
+##sde_property: file ../rtl/async_fifo_nomem.v -id 3 -inactiveList slc 36 36 1 slc 48 48 1 slc 75 75 1 slc 102 102 1 slc 132 132 1 slc 164 164 1 slc 177 177 1
+##sde_property: file ../rtl/ptr_counter.v -id 4 -inactiveList slc 7 7 1
+##sde_property: file ../rtl/syncer.v -id 5
+##sde_property: file ../rtl/bin2gray.v -id 6 -inactiveList slc 9 9 1 slc 12 12 1 slc 20 20 1
+##sde_property: file ../rtl/gray2bin.v -id 7 -inactiveList mlc 1 15 10 0
+##sde_property: file ../rtl/rd_empty.v -id 8
+##sde_property: file ../rtl/wr_full.v -id 9
 #span wr_full ../rtl/wr_full.v 1 28
 #rtl_idmap wr_full 1 -lang 1
 #greybox wr_full 15

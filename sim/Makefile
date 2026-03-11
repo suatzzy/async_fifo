@@ -6,7 +6,7 @@ TOP_MODULE = rd_empty
 
 
 
-all:clean lint elab run
+all:clean elab run
 
 elab:
 	vcs -full64 -debug_acc+all -sverilog -l compile.log		\

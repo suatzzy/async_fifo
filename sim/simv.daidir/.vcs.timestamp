@@ -1,0 +1,139 @@
+0 
+36
++itf+/home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64/lib/vcsdp_lite.tab
++v2k
++vc
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/jjt/install/synopsys/vcs/vcs/T-2022.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64/lib/libvirsim.so /home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64/lib/liberrorinf.so /home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64/lib/libsnpsmalloc.so /home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/home/jjt/install/synopsys/verdi/verdi/T-2022.06/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/jjt/install/synopsys/vcs/vcs/T-2022.06/include
+-Mxllcflags=
+-P
+-debug_acc+all
+-f ./files.f
+-fsdb
+-full64
+-gen_obj
+-l
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+/home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64/bin/vcs1
+compile.log
+/home/jjt/install/synopsys/verdi/verdi/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
+./files.f
+76
+XMODIFIERS=@im=ibus
+XDG_VTNR=1
+XDG_SESSION_TYPE=x11
+XDG_SESSION_ID=1
+XDG_SESSION_DESKTOP=gnome-classic
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/home/jjt/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+XDG_CURRENT_DESKTOP=GNOME-Classic:GNOME
+XAUTHORITY=/run/gdm/auth-for-jjt-saqmFn/database
+WINDOWPATH=1
+VTE_VERSION=5204
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/jjt/install/synopsys/verdi/verdi/T-2022.06
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=compile.log
+VCS_HOME=/home/jjt/install/synopsys/vcs/vcs/T-2022.06
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+USE_CALIBRE_VCO=aoj
+USERNAME=jjt
+UNAME=/bin/uname
+TOOL_HOME=/home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64
+TESSENT_HOME=/home/jjt/install/mentor/tessent_2023_1
+STARRC_HOME=/home/jjt/install/synopsys/starrc/starrc/T-2022.03-SP2
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_PID=3559
+SPYGLASS_HOME=/home/jjt/install/synopsys/spyglass/spyglass/T-2022.06-1/SPYGLASS_HOME
+SNPS_VCS_CLANG_PATH=/home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/3415,unix/unix:/tmp/.ICE-unix/3415
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SCL_HOME=/home/jjt/install/synopsys/scl/scl/2021.03
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_IM_MODULE=ibus
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PT_HOME=/home/jjt/install/synopsys/pt/prime/T-2022.03
+OVA_UUM=0
+MGC_LIB_PATH=/home/jjt/install/mentor/calibre/calibre2022.2/aoj_cal_2022.2_38.20/lib:/home/jjt/install/mentor/tessent_2023_1/lnx-x86/lib64:/home/jjt/install/mentor/tessent_2023_1/lnx-x86/bin64
+MFLAGS=
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_TIME=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_ALL=C
+KDEDIRS=/usr
+INNOVUS_HOME=/home/jjt/install/cadence/innovus/innovus2020
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+ICC2_HOME=/home/jjt/install/synopsys/icc2/icc2/T-2022.03
+HISTCONTROL=ignoredups
+GNOME_TERMINAL_SERVICE=:1.136
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/438423be_b6b0_4ebc_a543_d514cca04f95
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=zh_CN.UTF-8
+GDMSESSION=gnome-classic
+FM_HOME=/home/jjt/install/synopsys/fm/fm/T-2022.03
+DESKTOP_SESSION=gnome-classic
+DC_HOME=/home/jjt/install/synopsys/dc/syn/T-2022.03-SP2
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-6OmzowRcFU,guid=f23936ad7544e09dc345872369b0f705
+COLORTERM=truecolor
+CALIBRE_HOME=/home/jjt/install/mentor/calibre/calibre2022.2/aoj_cal_2022.2_38.20
+0
+0
+14
+1773253019 ../tb/async_fifo_wrap_tb.sv
+1773254049 ../rtl/wr_full.v
+1773213665 ../rtl/rd_empty.v
+1773159648 ../rtl/gray2bin.v
+1773157217 ../rtl/bin2gray.v
+1773160866 ../rtl/syncer.v
+1773211178 ../rtl/ptr_counter.v
+1773238122 ../rtl/async_fifo_nomem.v
+1773211176 ../rtl/dual_port_mem.v
+1773237178 ../rtl/async_fifo_wrap.v
+1773237325 ./rtl.f
+1773251568 ./files.f
+1653825972 /home/jjt/install/synopsys/verdi/verdi/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
+1654052745 /home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64/lib/vcsdp_lite.tab
+4
+1654054205 /home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64/lib/libvirsim.so
+1654053585 /home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64/lib/liberrorinf.so
+1654053489 /home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64/lib/libsnpsmalloc.so
+1654053565 /home/jjt/install/synopsys/vcs/vcs/T-2022.06/linux64/lib/libvfs.so
+1773254092 simv.daidir
+-1 partitionlib

@@ -1,0 +1,9 @@
+0 ../rtl/async_fifo_wrap.v
+1 ../rtl/dual_port_mem.v
+2 ../rtl/async_fifo_nomem.v
+3 ../rtl/ptr_counter.v
+4 ../rtl/syncer.v
+5 ../rtl/bin2gray.v
+6 ../rtl/gray2bin.v
+7 ../rtl/rd_empty.v
+8 ../rtl/wr_full.v

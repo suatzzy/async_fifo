@@ -13,7 +13,7 @@ module wr_full #(
 
 
 assign wr_full = (rd_ptr_gray_synced[PTR_WIDTH-1 : PTR_WIDTH-2] == ~wr_ptr_gray[PTR_WIDTH-1 : PTR_WIDTH-2]) 
-                        && (rd_ptr_gray_synced[PTR_WIDTH-3 : 0] == ~wr_ptr_gray[PTR_WIDTH-3 : 0]);
+                        && (rd_ptr_gray_synced[PTR_WIDTH-3 : 0] == wr_ptr_gray[PTR_WIDTH-3 : 0]);
 
 reg [PTR_WIDTH - 1 : 0] fifo_solid_cells;
 always@(*)  begin
