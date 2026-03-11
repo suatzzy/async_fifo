@@ -1,2 +1,8 @@
 *.v linguist-language=Verilog
 *.sv linguist-language=SystemVerilog
+
+# 让 GitHub 忽略 sim 目录下的所有文件，不把它们算入语言统计
+sim/* linguist-generated=true
+
+# 如果你还有其他工具生成的目录，比如 spyglass_lints，也可以一并忽略
+spyglass_lints/* linguist-generated=true
