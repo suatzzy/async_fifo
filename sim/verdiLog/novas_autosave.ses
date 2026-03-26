@@ -27,14 +27,14 @@ fdb_tool =
 [hb]
 postSimFile = /home/jjt/target/frontend_homework/async_fifo/sim/dump.fsdb
 syncTime = 0
-viewport = 0 27 2560 1331 0 0 97 2558
+viewport = 0 27 2558 1129 0 0 388 2556
 activeNode = "async_fifo_wrap_tb"
 activeScope = "async_fifo_wrap_tb"
 activeFile = "../tb/async_fifo_wrap_tb.sv"
 interactiveMode = False
 viewType = Source
 simulatorMode = False
-sourceBeginLine = 49
+sourceBeginLine = 19
 baMode = False
 srcLineNum = True
 AutoWrap = True
@@ -52,9 +52,7 @@ leadingZero = False
 signalPane = False
 SourceVerticalScrollLines = 5
 Scope1 = "async_fifo_wrap_tb"
-Scope2 = "async_fifo_wrap_tb.async_fifo_wrap_inst.pseudo_dual_port_mem_inst"
-Scope3 = "async_fifo_wrap_tb.async_fifo_wrap_inst"
-multipleSelection = 1 60 12 0 0
+multipleSelection = 1 19 2 0 0
 sdfCheckUndef = FALSE
 simFlow = FALSE
 [hb.design]
@@ -63,15 +61,15 @@ invokeDir = /home/jjt/target/frontend_homework/async_fifo/sim
 [hb.sourceTab.1]
 scope = async_fifo_wrap_tb
 File = /home/jjt/target/frontend_homework/async_fifo/tb/async_fifo_wrap_tb.sv
-Line = 50
+Line = 20
 [nMemoryManager]
 WaveformFile = /home/jjt/target/frontend_homework/async_fifo/sim/dump.fsdb
 UserActionNum = 0
 nMemWindowNum = 0
 [schematics.0]
-viewport = 0 30 2140 216
-viewbbox = -140004 -7600 170504 14600
-design = . "async_fifo_wrap_tb.async_fifo_wrap_inst" DebussyLib
+viewport = 0 30 2139 471
+viewbbox = -17568 -562 36818 9812
+design = . "async_fifo_wrap_tb" DebussyLib
 schmaticId = 3
 partial = False
 partialHier = False
@@ -136,7 +134,7 @@ display_fault_status_annot = False
 display_fault_obs_det_annot = False
 display_fusa_blocked_inst_label = False
 [wave.0]
-viewPort = 0 30 2560 715 235 65
+viewPort = 0 30 2558 427 235 65
 primaryWindow = TRUE
 SessionFile = /home/jjt/target/frontend_homework/async_fifo/sim/verdiLog/novas_autosave.ses.wave.0
 displayGrid = FALSE
